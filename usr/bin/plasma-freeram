@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ "$(systemctl status --user plasma-plasmashell.service | grep -i Active: | awk '{print $2}')" = "active" ]; then
+    systemctl restart --user plasma-plasmashell
+    sleep 1
+fi
+    
+if [ "$(systemctl status --user plasma-kwin_x11.service | grep -i Active: | awk '{print $2}')" = "active" ]; then
+    systemctl restart --user plasma-kwin_x11
+    sleep 1
+fi
+
+if [ "$(systemctl status --user plasma-kwin_wayland.service | grep -i Active: | awk '{print $2}')" = "active" ]; then
+    systemctl restart --user plasma-kwin_wayland
+    sleep 1
+fi    
+    
+if [ "$(systemctl status --user lattedock.service | sed '3!d' | awk '{print $2}')" = "active" ]; then
+    systemctl restart --user lattedock
+fi

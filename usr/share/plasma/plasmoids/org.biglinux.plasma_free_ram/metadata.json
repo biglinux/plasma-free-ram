@@ -1,0 +1,56 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "barnabedikartola@gmail.com",
+                "Name": "Barnabe di Kartola"
+            }
+        ],
+        "Category": "System",
+        "Description": "Plasma Free Ram",
+        "Description[pt_BR]": "Liberar Memoria Ram do Plasma",
+        "EnabledByDefault": true,
+        "Icon": "xpto",
+        "Id": "org.biglinux.plasma_free_ram",
+        "License": "GPL-2.0+",
+        "Name": "Plasma Free Ram",
+        "Name[bg]": "Промени в работния плот",
+        "Name[cs]": "Změny na ploše",
+        "Name[da]": "Skrivebordsændringer",
+        "Name[de]": "Desktop-Änderungen",
+        "Name[el]": "Αλλαγές στην επιφάνεια εργασίας",
+        "Name[en]": "Plasma Free Ram",
+        "Name[es]": "Cambios en el escritorio",
+        "Name[et]": "Töölaua muudatused",
+        "Name[fi]": "Työpöydän muutokset",
+        "Name[fr]": "Modifications du bureau",
+        "Name[he]": "שינויים בשולחן העבודה",
+        "Name[hr]": "Promjene radne površine",
+        "Name[hu]": "Asztali változások",
+        "Name[is]": "Skjáborðsbreytingar",
+        "Name[it]": "Modifiche al desktop",
+        "Name[ja]": "デスクトップの変更",
+        "Name[ko]": "데스크톱 변경 사항",
+        "Name[nl]": "Wijzigingen in het bureaublad",
+        "Name[no]": "Endringer på skrivebordet",
+        "Name[pl]": "Zmiany na pulpicie",
+        "Name[pt]": "Liberar Ram do Plasma",
+        "Name[pt_BR]": "Liberar Ram do Plasma",
+        "Name[ro]": "Modificări pentru desktop",
+        "Name[ru]": "Изменения рабочего стола",
+        "Name[sk]": "Zmeny pracovnej plochy",
+        "Name[sv]": "Ändringar på skrivbordet",
+        "Name[tr]": "Masaüstü değişiklikleri",
+        "Name[uk]": "Зміни робочого стола",
+        "Name[zh]": "桌面更改",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "SystemServices"
+}
